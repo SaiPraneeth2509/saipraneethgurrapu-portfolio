@@ -7,13 +7,13 @@ export default function Certifications() {
       name: "Google Cybersecurity Certificate",
       organization: "Coursera",
       date: "Dec 2024",
-      image: "/assets/GoogleCybersecurity.jpg",
+      image: "/saipraneethgurrapu-portfolio/assets/GoogleCybersecurity.jpg",
     },
     {
       name: "Python Basic",
       organization: "HackerRank",
       date: "Oct 2024",
-      image: "/assets/python_basic.jpg",
+      image: "/saipraneethgurrapu-portfolio/assets/python_basic.jpg",
     },
   ];
 

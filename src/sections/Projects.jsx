@@ -10,7 +10,7 @@ export default function Projects() {
       technologies: ["React", "TailwindCSS", "Django REST Framework"],
       demoLink: "https://saipraneeth2509.github.io/shopnow-app-frontend/",
       githubLink: "https://github.com/SaiPraneeth2509/shopnow-app-frontend",
-      image: "/assets/ShopNow.jpg",
+      image: "/saipraneethgurrapu-portfolio/assets/ShopNow.jpg",
     },
     {
       title: "TA Management System",
@@ -19,7 +19,7 @@ export default function Projects() {
       technologies: ["Django", "SQLite", "Bootstrap"],
       demoLink: "#",
       githubLink: "https://github.com/SaiPraneeth2509/TA-Management-System",
-      image: "/assets/TA.png",
+      image: "/saipraneethgurrapu-portfolio/assets/TA.png",
     },
     {
       title: "Food Recipe App",
@@ -28,7 +28,7 @@ export default function Projects() {
       technologies: ["React", "JavaScript", "HTML", "CSS"],
       demoLink: "#",
       githubLink: "https://github.com/SaiPraneeth2509/FoodRecipeApp",
-      image: "/assets/foodrecipe.jpg",
+      image: "/saipraneethgurrapu-portfolio/assets/foodrecipe.jpg",
     },
   ];
 

@@ -2,11 +2,10 @@ import { useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import tippy from "tippy.js";
-import "tippy.js/dist/tippy.css"; // Import Tippy.js CSS
-import Typewriter from "typewriter-effect"; // Import Typewriter component
+import "tippy.js/dist/tippy.css";
+import Typewriter from "typewriter-effect";
 
 export default function Hero() {
-  // Optional: Add dynamic effects using JavaScript
   useEffect(() => {
     const heroText = document.querySelector(".hero-text");
     if (heroText) {
@@ -16,7 +15,6 @@ export default function Hero() {
       );
     }
 
-    // Initialize Tippy.js tooltips
     tippy("[data-tippy-content]", {
       theme: "light",
       placement: "bottom",
@@ -28,18 +26,14 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center justify-center bg-black relative overflow-hidden"
     >
-      {/* Glowing Background */}
       <div className="absolute inset-0 bg-gradient-to-r from-purple-900 via-indigo-900 to-black opacity-80"></div>
 
-      {/* Animated Grid Overlay */}
       <div className="absolute inset-0 bg-grid-white/[0.05]"></div>
 
-      {/* Content */}
       <div className="text-center text-white relative z-10">
-        {/* Profile Image with Glow */}
         <div className="relative w-40 h-40 mx-auto mb-6">
           <img
-            src="/assets/digital-passport.jpg"
+            src="/saipraneethgurrapu-portfolio/assets/digital-passport.jpg"
             alt="Profile"
             className="w-full h-full rounded-full border-4 border-purple-500 shadow-lg"
           />
@@ -52,8 +46,7 @@ export default function Hero() {
           Hi, I'm <span className="text-purple-500">Sai Praneeth Gurrapu</span>
         </h1>
 
-        {/* Subtitle with Typewriter Effect */}
-        <p className="mt-4 text-xl text-gray-300">
+        <div className="mt-4 text-xl text-gray-300">
           A passionate developer skilled in{" "}
           <span className="text-purple-500">
             <Typewriter
@@ -67,7 +60,7 @@ export default function Hero() {
               }}
             />
           </span>
-        </p>
+        </div>
 
         {/* Social Icons with Tooltips and Animations */}
         <div className="mt-8 flex justify-center space-x-6">
